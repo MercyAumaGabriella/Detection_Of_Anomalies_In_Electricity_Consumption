@@ -1,0 +1,25 @@
+{
+  "source": "Order Lis_09181045.xlsx",
+  "audit_window": {
+    "first_complete_week": "2026-01-05",
+    "last_complete_week": "2026-08-30",
+    "complete_weeks": 34
+  },
+  "source_rows": 30362,
+  "source_successful_transactions_all_dates": 20306,
+  "successful_transactions_in_window": 8523,
+  "valid_transactions_in_window": 8523,
+  "invalid_tariff_or_amount": 0,
+  "customer_meter_pairs": 725,
+  "customer_week_rows": 20198,
+  "active_customer_weeks": 6407,
+  "zero_purchase_customer_weeks": 13791,
+  "active_week_pct": 31.72,
+  "customer_weeks_with_prior_rate_baseline": 11264,
+  "partial_first_weeks": 544,
+  "same_day_additional_transactions": 251,
+  "positive_distinct_date_intervals": 7547,
+  "median_est_consumption_rate_kwh_day": 42.381795,
+  "customers_active_50pct_weeks": 175,
+  "model_readiness": "Pending outlier inspection and feature validation"
+}

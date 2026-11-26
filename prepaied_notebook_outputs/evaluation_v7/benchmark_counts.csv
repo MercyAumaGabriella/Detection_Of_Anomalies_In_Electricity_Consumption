@@ -1,0 +1,4 @@
+kind,partition,background,calibration,high_amount,low_amount,high_rate,extra_purchase,inactivity,combined,low_rate
+week,selection,1139,1122,35,35,35,35,35,35,20
+week,test,4731,1122,35,35,35,35,35,35,35
+month,test,1196,570,35,35,35,35,35,35,35

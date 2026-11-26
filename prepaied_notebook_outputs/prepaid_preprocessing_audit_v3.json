@@ -1,0 +1,166 @@
+{
+  "week": {
+    "source_sha256": "c84e0d96c717e9bb1d0b89767ed3acbccf89b93e2dd679cb02a479ee57b91d03",
+    "rows": 20198,
+    "partial": 50,
+    "splits": {
+      "test": 5647,
+      "train": 11836,
+      "validation": 2715
+    },
+    "baseline": {
+      "counts": {
+        "test": 5634,
+        "train": 11805,
+        "validation": 2709
+      },
+      "pairs": 723,
+      "zero_iqr": [],
+      "scalers": {
+        "robust": {
+          "train_max_abs": 3.9068905956085187,
+          "test_max_abs": 3.0,
+          "test_outside_0_1_pct": 30.58809608330375
+        },
+        "standard": {
+          "train_max_abs": 6.2348127073424955,
+          "test_max_abs": 4.637092055638268,
+          "test_outside_0_1_pct": 89.30304106022956
+        },
+        "minmax": {
+          "train_max_abs": 1.0,
+          "test_max_abs": 1.0869948554342883,
+          "test_outside_0_1_pct": 2.1890900485149687
+        }
+      },
+      "features": [
+        "purchase_count",
+        "purchased_kwh_est",
+        "days_since_last_successful_purchase"
+      ]
+    },
+    "enhanced": {
+      "counts": {
+        "test": 4731,
+        "train": 9567,
+        "validation": 2261
+      },
+      "pairs": 611,
+      "zero_iqr": [],
+      "scalers": {
+        "robust": {
+          "train_max_abs": 22.528703800537887,
+          "test_max_abs": 21.206820857584354,
+          "test_outside_0_1_pct": 44.18971432287856
+        },
+        "standard": {
+          "train_max_abs": 9.549765054212646,
+          "test_max_abs": 7.63831412872904,
+          "test_outside_0_1_pct": 76.82064289546851
+        },
+        "minmax": {
+          "train_max_abs": 1.0000000000000002,
+          "test_max_abs": 1.1640904600051534,
+          "test_outside_0_1_pct": 0.9869437263222933
+        }
+      },
+      "features": [
+        "purchase_count",
+        "purchased_kwh_est",
+        "days_since_last_successful_purchase",
+        "historical_median_interval_days",
+        "latest_est_consumption_kwh_day",
+        "prior_median_est_consumption_kwh_day",
+        "relative_purchase_gap",
+        "consumption_rate_ratio",
+        "new_completed_intervals",
+        "days_since_latest_completed_interval",
+        "purchased_kwh_log_deviation",
+        "purchase_count_log_deviation",
+        "consecutive_complete_zero_purchase_periods"
+      ]
+    }
+  },
+  "month": {
+    "source_sha256": "019f142d2f577e8b717c4e42b7c1c45c8e2e2301346f1798d2aa80ce0bdc4e2d",
+    "rows": 5613,
+    "partial": 55,
+    "splits": {
+      "test": 1443,
+      "train": 3460,
+      "validation": 710
+    },
+    "baseline": {
+      "counts": {
+        "test": 1428,
+        "train": 3426,
+        "validation": 704
+      },
+      "pairs": 718,
+      "zero_iqr": [],
+      "scalers": {
+        "robust": {
+          "train_max_abs": 2.182658338644138,
+          "test_max_abs": 2.434114998539205,
+          "test_outside_0_1_pct": 47.85247432306256
+        },
+        "standard": {
+          "train_max_abs": 3.80409823945242,
+          "test_max_abs": 4.228716840338939,
+          "test_outside_0_1_pct": 61.531279178338
+        },
+        "minmax": {
+          "train_max_abs": 1.0,
+          "test_max_abs": 1.0893722363237093,
+          "test_outside_0_1_pct": 0.09337068160597572
+        }
+      },
+      "features": [
+        "purchase_count",
+        "purchased_kwh_est",
+        "days_since_last_successful_purchase"
+      ]
+    },
+    "enhanced": {
+      "counts": {
+        "test": 1196,
+        "train": 2519,
+        "validation": 570
+      },
+      "pairs": 609,
+      "zero_iqr": [],
+      "scalers": {
+        "robust": {
+          "train_max_abs": 13.789845540448178,
+          "test_max_abs": 12.980706891430497,
+          "test_outside_0_1_pct": 51.33136094674556
+        },
+        "standard": {
+          "train_max_abs": 5.253214156911438,
+          "test_max_abs": 6.044375555534579,
+          "test_outside_0_1_pct": 72.0478518137381
+        },
+        "minmax": {
+          "train_max_abs": 1.0000000000000002,
+          "test_max_abs": 1.1438249830119076,
+          "test_outside_0_1_pct": 0.15436068947774634
+        }
+      },
+      "features": [
+        "purchase_count",
+        "purchased_kwh_est",
+        "days_since_last_successful_purchase",
+        "historical_median_interval_days",
+        "latest_est_consumption_kwh_day",
+        "prior_median_est_consumption_kwh_day",
+        "relative_purchase_gap",
+        "consumption_rate_ratio",
+        "new_completed_intervals",
+        "days_since_latest_completed_interval",
+        "purchased_kwh_log_deviation",
+        "purchase_count_log_deviation",
+        "consecutive_complete_zero_purchase_periods"
+      ]
+    }
+  }
+}

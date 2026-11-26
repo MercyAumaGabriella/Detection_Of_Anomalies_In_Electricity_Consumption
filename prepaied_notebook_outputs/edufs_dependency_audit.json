@@ -1,0 +1,44 @@
+{
+  "shannon": {
+    "min_eigenvalue": -5.486601660019704e-16,
+    "max_eigenvalue": 8.223282375769106,
+    "min_entry": 0.010079508579232677,
+    "entropy": {
+      "purchase_count": 0.3990926619568282,
+      "purchased_kwh_est": 1.356749937056906,
+      "days_since_last_successful_purchase": 3.2845065293393576,
+      "historical_median_interval_days": 3.3046798439392058,
+      "latest_est_consumption_kwh_day": 3.321925879728533,
+      "prior_median_est_consumption_kwh_day": 3.3219238317485744,
+      "relative_purchase_gap": 3.315934050118793,
+      "consumption_rate_ratio": 3.321911225481035,
+      "new_completed_intervals": 0.3734111650123598,
+      "days_since_latest_completed_interval": 3.2845065293393576,
+      "purchased_kwh_log_deviation": 1.9241441898832852,
+      "purchase_count_log_deviation": 0.9484567004272878,
+      "consecutive_complete_zero_purchase_periods": 2.012247969639094
+    }
+  },
+  "min": {
+    "min_eigenvalue": -0.45338388656113765,
+    "max_eigenvalue": 10.458017735663066,
+    "min_entry": -0.9893005777402517,
+    "entropy": {
+      "purchase_count": 0.11892457916564102,
+      "purchased_kwh_est": 0.5145516302612618,
+      "days_since_last_successful_purchase": 2.6934445458743492,
+      "historical_median_interval_days": 2.9075693512271967,
+      "latest_est_consumption_kwh_day": 3.3169602873648985,
+      "prior_median_est_consumption_kwh_day": 3.3169602873648985,
+      "relative_purchase_gap": 3.058943956297729,
+      "consumption_rate_ratio": 3.3064788034965757,
+      "new_completed_intervals": 0.10783188964832381,
+      "days_since_latest_completed_interval": 2.6934445458743492,
+      "purchased_kwh_log_deviation": 0.800209687897561,
+      "purchase_count_log_deviation": 0.4388071681936928,
+      "consecutive_complete_zero_purchase_periods": 0.8512578498326713
+    }
+  },
+  "rows": 9567,
+  "exact_duplicate": true
+}

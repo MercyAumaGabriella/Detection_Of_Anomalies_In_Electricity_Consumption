@@ -1,0 +1,164 @@
+{
+  "week": {
+    "rows": 20198,
+    "customers": 725,
+    "purchases": 8523,
+    "zero_periods": 13791,
+    "missing": {
+      "customer_no": 0,
+      "meter_no": 0,
+      "period_start": 0,
+      "period_end": 0,
+      "purchase_count": 0,
+      "purchased_kwh_est": 0,
+      "electricity_expenditure_ugx": 0,
+      "days_since_last_successful_purchase": 0,
+      "completed_intervals_to_date": 0,
+      "historical_median_interval_days": 524,
+      "latest_est_consumption_kwh_day": 524,
+      "prior_median_est_consumption_kwh_day": 1194,
+      "relative_purchase_gap": 524,
+      "consumption_rate_ratio": 1194,
+      "new_completed_intervals": 0,
+      "days_since_latest_completed_interval": 524,
+      "prior_complete_periods": 0,
+      "prior_median_purchased_kwh": 103,
+      "prior_median_purchase_count": 103,
+      "purchased_kwh_log_deviation": 103,
+      "purchase_count_log_deviation": 103,
+      "consecutive_complete_zero_purchase_periods": 0,
+      "latest_purchase_tariff_category": 0,
+      "partial_first_period": 0,
+      "first_observed_purchase_date": 0
+    },
+    "thresholds": {
+      "1": [
+        19674,
+        707
+      ],
+      "2": [
+        19004,
+        687
+      ],
+      "3": [
+        17928,
+        658
+      ],
+      "4": [
+        16559,
+        611
+      ],
+      "5": [
+        15045,
+        544
+      ],
+      "8": [
+        12002,
+        451
+      ]
+    },
+    "fresh_intervals": 6354
+  },
+  "month": {
+    "rows": 5613,
+    "customers": 725,
+    "purchases": 8672,
+    "zero_periods": 2268,
+    "missing": {
+      "customer_no": 0,
+      "meter_no": 0,
+      "period_start": 0,
+      "period_end": 0,
+      "purchase_count": 0,
+      "purchased_kwh_est": 0,
+      "electricity_expenditure_ugx": 0,
+      "days_since_last_successful_purchase": 0,
+      "completed_intervals_to_date": 0,
+      "historical_median_interval_days": 195,
+      "latest_est_consumption_kwh_day": 195,
+      "prior_median_est_consumption_kwh_day": 502,
+      "relative_purchase_gap": 195,
+      "consumption_rate_ratio": 502,
+      "new_completed_intervals": 0,
+      "days_since_latest_completed_interval": 195,
+      "prior_complete_periods": 0,
+      "prior_median_purchased_kwh": 107,
+      "prior_median_purchase_count": 107,
+      "purchased_kwh_log_deviation": 107,
+      "purchase_count_log_deviation": 107,
+      "consecutive_complete_zero_purchase_periods": 0,
+      "latest_purchase_tariff_category": 0,
+      "partial_first_period": 0,
+      "first_observed_purchase_date": 0
+    },
+    "thresholds": {
+      "1": [
+        5418,
+        707
+      ],
+      "2": [
+        5111,
+        687
+      ],
+      "3": [
+        4681,
+        658
+      ],
+      "4": [
+        4292,
+        611
+      ],
+      "5": [
+        3853,
+        544
+      ],
+      "8": [
+        3026,
+        451
+      ]
+    },
+    "fresh_intervals": 3303
+  },
+  "source_audit": {
+    "transactions_from_jan5": 8587,
+    "historical_transactions": 10956
+  },
+  "tariff_categories": {
+    "Code10.2": {
+      "transactions": 8258,
+      "median_kwh": 249.2609152288072,
+      "max_kwh": 266985.65212046716
+    },
+    "Code20": {
+      "transactions": 33,
+      "median_kwh": 61069.89473684211,
+      "max_kwh": 303587.15789473685
+    },
+    "Code30": {
+      "transactions": 12,
+      "median_kwh": 113421.26219390801,
+      "max_kwh": 1518805.4947242683
+    },
+    "Code20.1": {
+      "transactions": 3,
+      "median_kwh": 62858.93290588505,
+      "max_kwh": 74510.5046728972
+    },
+    "Code20.2": {
+      "transactions": 335,
+      "median_kwh": 35077.436099095554,
+      "max_kwh": 667105.1162790698
+    },
+    "Code30.2": {
+      "transactions": 29,
+      "median_kwh": 336254.6601663321,
+      "max_kwh": 4322546.601663321
+    },
+    "Commercial": {
+      "transactions": 4,
+      "median_kwh": 124.45807634605768,
+      "max_kwh": 135.6766127687948
+    }
+  },
+  "source_sha256": "9efd3aa7d930e8a733e6d541e76c21639c9bf5f3d26d8ed9465d9606f66f756c"
+}
